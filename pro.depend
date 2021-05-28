@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1619275152 source:c:\users\yurim\dropbox\morganti\pro\dijkstra.cpp
+	<iostream>
+	<fstream>
+	<float.h>
+	<vector>
+
+1619275352 source:c:\users\yurim\dropbox\morganti\pro\generatore_istanze.cpp
+	<iostream>
+	<fstream>
+	<random>
+	<string>
+	<cstdlib>
+	<ctime>
+	<chrono>
+	<iomanip>
+
+1619705315 source:c:\users\yurim\dropbox\morganti\pro\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	<chrono>
+	"dijkstra.h"
+	"generatore_istanze.h"
+	"greedy.h"
+	"genetico.h"
+	"generatore_output.h"
+
+1618793899 c:\users\yurim\dropbox\morganti\pro\dijkstra.h
+
+1618146155 c:\users\yurim\dropbox\morganti\pro\generatore_istanze.h
+
+1619275352 source:c:\users\yurim\dropbox\morganti\pro\greedy.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+
+1618926636 c:\users\yurim\dropbox\morganti\pro\greedy.h
+
+1619013447 c:\users\yurim\dropbox\morganti\pro\genetico.h
+
+1619275352 source:c:\users\yurim\dropbox\morganti\pro\genetico.cpp
+	<iostream>
+	<fstream>
+	<random>
+	<string>
+	<cstdlib>
+	<ctime>
+	<chrono>
+	<iomanip>
+	<float.h>
+	<vector>
+
+1619707909 source:c:\users\yurim\dropbox\morganti\pro\generatore_output.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+	<vector>
+
+1619017801 c:\users\yurim\dropbox\morganti\pro\generatore_output.h
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pro" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="input/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="costi_q.txt">
+			<Option virtualFolder="input/" />
+		</Unit>
+		<Unit filename="dijkstra.cpp" />
+		<Unit filename="dijkstra.h" />
+		<Unit filename="domanda.txt">
+			<Option virtualFolder="input/" />
+		</Unit>
+		<Unit filename="generatore_istanze.cpp" />
+		<Unit filename="generatore_istanze.h" />
+		<Unit filename="generatore_output.cpp" />
+		<Unit filename="generatore_output.h" />
+		<Unit filename="genetico.cpp" />
+		<Unit filename="genetico.h" />
+		<Unit filename="grafo.txt">
+			<Option virtualFolder="input/" />
+		</Unit>
+		<Unit filename="greedy.cpp" />
+		<Unit filename="greedy.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="rt_altro.txt">
+			<Option virtualFolder="input/" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
